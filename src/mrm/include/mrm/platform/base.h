@@ -632,7 +632,7 @@ public:
     // returns a new default (universal) build configuration
     static HRESULT CreateDefault(_Outptr_ MrmBuildConfiguration** config)
     {
-        return CreateInstance(MrmPlatformVersionInternal::WindowsCoreRS4, config);
+        return CreateInstance(MrmPlatformVersionInternal::WindowsCore, config);
     }
 
     virtual ~MrmBuildConfiguration() {}
